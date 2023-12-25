@@ -1,5 +1,8 @@
 
-const GOOGLE_API_KEY="AIzaSyDnjtN9-HZbYVdTSwD480568kEWJqrM5mM";
+const GOOGLE_API_KEY="AIzaSyA7uAB2zoNWRkXF_v6OwazgwBt2Xz9lEN4";
 
-export const YOUTUBE_VIDEOS_API="https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=US&key="+GOOGLE_API_KEY;
+export const OFFSET_LIVE_CHAT=25;
 
+export const YOUTUBE_VIDEOS_API="https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key="+GOOGLE_API_KEY;
+
+export const YOUTUBE_SEARCH_API="http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
